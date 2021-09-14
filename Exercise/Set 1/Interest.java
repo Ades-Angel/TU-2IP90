@@ -4,7 +4,6 @@ Chloe Antonozzi
 
 Interest calculation
 */
-
 import java.util.Scanner;
 
 public class Interest {
