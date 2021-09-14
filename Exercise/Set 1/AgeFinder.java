@@ -10,7 +10,9 @@ public class AgeFinder {
     Scanner scan = new Scanner(System.in);
     
     public void ageCheck() {
+        System.out.println("Enter your birth date (yyyymmdd):");
         String dateOfBirth = scan.nextLine();
+        System.out.println("Enter the current date (yyyymmdd):");
         String currentDate = scan.nextLine();
         int yearDoB = Integer.parseInt(dateOfBirth.substring(0,4));
         int yearCD = Integer.parseInt(currentDate.substring(0,4));
