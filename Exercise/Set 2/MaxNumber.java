@@ -4,7 +4,6 @@ Chloe Antonozzi
 
 Gets 3 numbers and prints the max.
 */
-
 import java.util.Scanner;
 
 public class MaxNumber {
