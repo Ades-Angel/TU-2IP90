@@ -1,6 +1,6 @@
 /*
 Chloe Antonozzi
-11/09/21
+11/09/2021
 
 Calculates the age from two inputs
 */
