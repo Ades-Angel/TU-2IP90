@@ -1,6 +1,6 @@
 /*
 Chloe Antonozzi
-14/09/21
+14/09/2021
 
 Gets 3 numbers and prints the max.
 */
