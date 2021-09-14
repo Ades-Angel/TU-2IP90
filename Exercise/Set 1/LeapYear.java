@@ -1,6 +1,6 @@
 /*
 Chloe Antonozzi
-7/09/2021
+07/09/2021
 
 Outputs if a year leaps as true or false
 */
