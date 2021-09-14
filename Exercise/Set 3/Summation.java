@@ -1,7 +1,8 @@
 /*
-*Domi & Chloe
-*14/09/2021
-*Calculate sum of numbers on input 
+Chloe Antonozzi
+14/09/2021
+
+Calculate sum of numbers on input 
 */
 
 import java.util.*;
