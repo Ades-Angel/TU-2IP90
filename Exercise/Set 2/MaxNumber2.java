@@ -10,8 +10,11 @@ public class MaxNumber2 {
     Scanner scan = new Scanner(System.in);
 
     public void max(){
+        System.out.println("Enter the first number (integer):");
         int number1 = scan.nextInt();
+        System.out.println("Enter the second number (integer):");
         int number2 = scan.nextInt();
+        System.out.println("Enter the third number (integer):");
         int number3 = scan.nextInt();
 
         if (number1 > number2 && number1>number3){
