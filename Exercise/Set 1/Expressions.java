@@ -1,6 +1,6 @@
 /*
 Chloe Antonozzi
-7/09/2021
+07/09/2021
 
 Calculate an expression and output it
 */
