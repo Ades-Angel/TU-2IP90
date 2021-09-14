@@ -4,7 +4,6 @@ Chloe Antonozzi
 
 Calculate sum of numbers on input 
 */
-
 import java.util.*;
 
 public class Summation {
