@@ -9,21 +9,16 @@ import java.util.Scanner;
 public class Interest {
     Scanner scan = new Scanner(System.in);
 
-    public void calcInterest() {
-        double balance;
-        double rate;//percentage
+    public void calcInterest(){
         double interest;
-        double taxRate; // percentage
         double tax;
 
         System.out.println("Enter the starting amount ");
-        balance = scan.nextDouble();
-
+        double balance = scan.nextDouble();
         System.out.println("Give interest rate as a percentage ");
-        rate = scan.nextDouble();
-
+        double rate = scan.nextDouble();//percentage
         System.out.println("Give the tax rate as a percentage ");
-        taxRate = scan.nextDouble();
+        double taxRate = scan.nextDouble(); // percentage
 
         interest = (balance*rate/100.0);
         tax = ((balance/taxRate)/100.0);
