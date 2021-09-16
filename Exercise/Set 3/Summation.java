@@ -14,14 +14,19 @@ public class Summation {
 
     void doSummation(){
         times = 0;
-        multiplication = 2;
+        multiplication = 1;
+        System.out.println("Type a sequence of integer numbers, terminated by a 0: ")
         while(sc.hasNextInt()){
             number = sc.nextInt();
-            multiplication = number*multiplication;
+            if (number > 0 || number < 0){
+                multiplication = number*multiplication;
             times++;
+            }else{
+                System.out.println("Multiplication is "+ multiplication);
+                System.out.println("The amount of variables entered is "+times);
+                break;
+            }
         }
-        System.out.println("Multiplication is "+ multiplication);
-        System.out.println("The amount of variables entered is "+times);
     }
     public static void main(String[] args){
         (new Summation()).doSummation();
