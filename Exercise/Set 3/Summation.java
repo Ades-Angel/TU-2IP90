@@ -15,7 +15,7 @@ public class Summation {
     void doSummation(){
         times = 0;
         multiplication = 1;
-        System.out.println("Type a sequence of integer numbers, terminated by a 0: ")
+        System.out.println("Type a sequence of integer numbers, terminated by a 0:");
         while(sc.hasNextInt()){
             number = sc.nextInt();
             if (number > 0 || number < 0){
