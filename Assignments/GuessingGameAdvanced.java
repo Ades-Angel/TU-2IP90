@@ -18,12 +18,12 @@ public class GuessingGameAdvanced {
         System.out.println("Think of a secret number not smaller than 0 and not greater than 1000. Type ’go’ when you have one.");
         String answer = scanner.nextLine();
     
-        for (int i=0; i<10; i++) {
+        for (int i=0; i<10; i++) { //gives the computer 10 tries
             if (answer.equals("go")){
-                int computerGuess = (max + min)/2;
+                int computerGuess = (max + min)/2; // alculates a number between a range
                 System.out.println(computerGuess);
                 String result = scanner.nextLine();
-                if (result.equals("h") || result.equals("higher")){
+                if (result.equals("h") || result.equals("higher")){ //checks input
                     min = computerGuess;
                 }
                 else if (result.equals("l") || result.equals("lower")){
