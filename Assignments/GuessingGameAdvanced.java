@@ -30,7 +30,7 @@ public class GuessingGameAdvanced {
                     max = computerGuess; 
 
                 }
-                else if (result.equals("Good guess! You won.")){
+                else if (result.equals("guessed")){
                     break;
                 }
                 else{
