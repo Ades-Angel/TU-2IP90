@@ -1,3 +1,4 @@
+
 /*
 Chloe Antonozzi
 07/09/2021
@@ -9,35 +10,33 @@ import java.util.Scanner;
 public class LeapYear {
     Scanner scan = new Scanner(System.in);
 
-    public void yearCheck () {
+    public void yearCheck() {
         int year;
         boolean is_leap = false;
         System.out.println("Enter a year: ");
         year = scan.nextInt();
 
-        if (year % 4 == 0)
-        {
-            if (year % 100 == 0)
-            {
+        if (year % 4 == 0) {
+            if (year % 100 == 0) {
                 if (year % 400 == 0)
                     is_leap = true;
                 else
                     is_leap = false;
-            }
-            else
+            } else
                 is_leap = true;
-        }
-        else {
+        } else {
             is_leap = false;
         }
-        
-        if(is_leap == true)
-            System.out.println("The statement year "+year+" is a leap year is true.");
-        else
-        System.out.println("The statement year "+year+" is a leap year is false.");
 
-    }    public static void main(String[] args) {
+        if (is_leap == true)
+            System.out.println("The statement year " + year + " is a leap year is true.");
+        else
+            System.out.println("The statement year " + year + " is a leap year is false.");
+
+    }
+
+    public static void main(String[] args) {
         (new LeapYear()).yearCheck();
     }
-    
+
 }
