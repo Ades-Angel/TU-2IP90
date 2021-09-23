@@ -1,3 +1,4 @@
+
 /*
 Chloe Antonozzi
 14/09/2021
@@ -22,7 +23,8 @@ public class BMI {
         String output = String.format("Hello %s, your BMI is %.1f",name, bmi);
         System.out.println(output);
     }
-    public static void main(String[] args){
+
+    public static void main(String[] args) {
         (new BMI()).calculateBMI();
     }
 }
