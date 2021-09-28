@@ -1,6 +1,7 @@
 
 /*
 Chloe Antonozzi
+1670980
 14/09/2021
 
 Calculate sum of numbers on input 
