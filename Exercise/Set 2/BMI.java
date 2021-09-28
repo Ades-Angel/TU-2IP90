@@ -1,6 +1,7 @@
 
 /*
 Chloe Antonozzi
+1670980
 14/09/2021
 
 Calculates the BMI of a person
