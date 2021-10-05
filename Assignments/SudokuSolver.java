@@ -32,27 +32,27 @@ class SudokuSolver {
 
     // Checks if there are any conflicts
     boolean givesConflict(int r, int c, int d) {
-        return !(rowConflict(r, d) && columnConflict(c, d) && boxConflict(r, c, d) && asteriskConflict(r, c, d));
+        return (rowConflict(r, d) || columnConflict(c, d) || boxConflict(r, c, d) || asteriskConflict(r, c, d));
     }
 
     // Checks if there is a row conflict
     boolean rowConflict(int r, int d) {
         for (int i = 0; i < SUDOKU_SIZE; i++) {
             if (grid[r][i] == d) {
-                return false;
+                return true;
             }
         }
-        return true;
+        return false;
     }
 
     // Checks is there is column conflict
     boolean columnConflict(int c, int d) {
         for (int i = 0; i < SUDOKU_SIZE; i++) {
             if (grid[i][c] == d) {
-                return false;
+                return true;
             }
         }
-        return true;
+        return false;
     }
 
     // Checks of there is a box conflict
@@ -63,11 +63,11 @@ class SudokuSolver {
         for (int i = 0; i < SUDOKU_BOX_DIMENSION; i++) {
             for (int j = 0; j < SUDOKU_BOX_DIMENSION; j++) {
                 if (grid[row + i][col + j] == d) {
-                    return false;
+                    return true;
                 }
             }
         }
-        return true;
+        return false;
     }
 
     // Checks if there is a asteriks conflict
@@ -76,10 +76,10 @@ class SudokuSolver {
                 || (r == 4 && c == 7) || (r == 6 && c == 2) || (r == 7 && c == 4) || (r == 6 && c == 6)) {
             if (grid[1][4] == d || grid[2][2] == d || grid[2][6] == d || grid[4][1] == d || grid[4][4] == d
                     || grid[4][7] == d || grid[6][2] == d || grid[6][6] == d || grid[7][4] == d) {
-                return false;
+                return true;
             }
         }
-        return true;
+        return false;
     }
 
     // Finds the next empty square.
