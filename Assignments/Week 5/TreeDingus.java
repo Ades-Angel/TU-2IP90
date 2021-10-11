@@ -3,8 +3,8 @@
  * a little bit more advanced example of a shape
  * a tree consisting of a trunk (rectangle) and a crown (circle)
  *
- * @author Dominika Chabior 1700219 kees
- * @author Chloe Antonozzi 1670980 huub
+ * @author Dominika Chabior 1700219
+ * @author Chloe Antonozzi 1670980
  */
 
 import java.awt.Graphics;
