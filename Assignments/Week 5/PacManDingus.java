@@ -1,8 +1,7 @@
 /**
- * CircleDingus -- part of HA RandomArtist
- * example of a very simple Dingus
- * @author Dominika Chabior 1700219 kees
- * @author Chloe Antonozzi 1670980 huub
+ * PacManDingus -- part of HA RandomArtist
+ * @author Dominika Chabior 1700219
+ * @author Chloe Antonozzi 1670980
  */
 
 import java.awt.Graphics;
