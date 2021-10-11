@@ -1,9 +1,8 @@
 /*
  * part of HA Random artist
- * TO BE COMPLETED
  *
- * @author Dominika Chabior 1700219 kees
- * @author Chloe Antonozzi 1670980 huub
+ * @author Dominika Chabior 1700219
+ * @author Chloe Antonozzi 1670980
  */
 
 import java.awt.Component;
