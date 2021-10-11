@@ -1,4 +1,3 @@
-// TO BE COMPLETED 
 import java.awt.Color;
 import java.awt.Graphics;
 import java.util.Random;
@@ -6,7 +5,8 @@ import java.util.Random;
 /**
  * Dingus --  part of HA Random Artist
  * abstract class representing an arbitrary shape
- * @author huub
+ * @author Chloe Antonozzi 1670980
+ * @author Dominika Chabior 
  */
 abstract class Dingus {
     /** random generator to be used by all subclasses of Dingus 
