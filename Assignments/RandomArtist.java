@@ -1,8 +1,7 @@
 /** Main class for HA Random Artist
- * can be used unchanged in most cases
  *
- * @author Dominika Chabior 1700219 kees
- * @author Chloe Antonozzi 1670980 huub
+ * @author Dominika Chabior 1700219
+ * @author Chloe Antonozzi 1670980
  */
 
 import java.awt.BorderLayout;
