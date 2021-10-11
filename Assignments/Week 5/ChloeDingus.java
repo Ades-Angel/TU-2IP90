@@ -1,6 +1,5 @@
 /**
  * CircleDingus -- part of HA RandomArtist
- * example of a very simple Dingus
  * @author Dominika Chabior 1700219
  * @author Chloe Antonozzi 1670980 
  */
