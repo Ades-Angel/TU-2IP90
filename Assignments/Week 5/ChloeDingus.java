@@ -1,5 +1,5 @@
 /**
- * CircleDingus -- part of HA RandomArtist
+ * ChloeDingus -- part of HA RandomArtist
  * @author Dominika Chabior 1700219
  * @author Chloe Antonozzi 1670980 
  */
