@@ -14,7 +14,7 @@ class Rational {
     Rational(int numerator, int denominator) {
         int gcd = gcd(numerator, denominator);
         this.numerator = ((denominator > 0) ? 1 : -1) * numerator / gcd;
-        this.denominator = Math.abs(denominator)/gcd;
+        this.denominator = Math.abs(denominator) / gcd;
     }
 
     int getNumerator() {
@@ -27,6 +27,10 @@ class Rational {
 
     String toStr() {
         return String.format("%d/%d", getNumerator(), getDenominator());
+    }
+
+    void simplify() {
+        // Insert code here
     }
 
     boolean eq(Rational other) {
