@@ -163,7 +163,7 @@ public class Letter extends JFrame {
         }
     }
 
-    public static void main(String[] ar) {
+    public static void main(String[] args) {
         System.out.println("This class is meant to be used in the Interactions Pane of DrJava,");
         System.out.println("not to run from the method main.");
     }
