@@ -3,6 +3,7 @@ Chloe Antonozzi
 1670980
 
 17/10/2021
+Extenstion to the file Letter
 */
 
 public class SmoothLetter extends Letter {
