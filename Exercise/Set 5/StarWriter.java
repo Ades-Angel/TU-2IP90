@@ -2,7 +2,9 @@
 /*
 Chloe Antonozzi
 1670980
+
 23/09/2021
+Prints out letters
 */
 import java.util.*;
 
