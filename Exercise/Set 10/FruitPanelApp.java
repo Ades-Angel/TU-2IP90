@@ -4,6 +4,7 @@
  * 1670980
  * 
  * 17/10/2021
+ * Prints out fruits in a new window
  */
 import javax.swing.*;
 import java.awt.*;
