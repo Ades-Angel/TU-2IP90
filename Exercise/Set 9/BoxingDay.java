@@ -4,7 +4,7 @@ Chloe Antonozzi
 1670980
 
 17/10/2021
-Prints different shades of red/pink
+Uses nested panels
 */
 import javax.swing.*;
 import javax.swing.border.LineBorder;
