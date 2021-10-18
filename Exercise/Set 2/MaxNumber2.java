@@ -2,8 +2,8 @@
 /*
 Chloe Antonozzi
 1670980
-14/09/2021
 
+14/09/2021
 3 number inputs, outputs max number.
 */
 import java.util.Scanner;
