@@ -2,8 +2,8 @@
 /*
 Chloe Antonozzi
 1670980
-09/09/2021
 
+09/09/2021
 Calculates the age from two inputs
 */
 import java.util.Scanner;
