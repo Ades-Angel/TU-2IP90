@@ -3,6 +3,7 @@ Chloe Antonozzi
 1670980
 
 09/10/2021
+Prints a letter in a new window
 */
 
 import javax.swing.*;
