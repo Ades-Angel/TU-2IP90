@@ -4,6 +4,7 @@ Chloe Antonozzi
 1670980
 
 16/10/2021
+Prints out a window with buttons and an image
 */
 import java.awt.*;
 import javax.swing.*;
