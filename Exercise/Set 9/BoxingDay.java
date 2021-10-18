@@ -4,6 +4,7 @@ Chloe Antonozzi
 1670980
 
 17/10/2021
+Prints different shades of red/pink
 */
 import javax.swing.*;
 import javax.swing.border.LineBorder;
@@ -14,8 +15,6 @@ class BoxingDay {
     JFrame frame;
     JPanel mainPanel, panel, panel2;
     JLabel label1, label2, label3, label4;
-
-    // add additional instance variables
 
     BoxingDay() {
         frame = new JFrame("Boxing Day");
