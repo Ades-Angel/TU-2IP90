@@ -1,10 +1,9 @@
 /*
-Solve a maze
-
 Chloe Antonozzi
 1670980
 
 16/10/2021
+Solve a maze
 */
 
 class AmazingCaseTile{
