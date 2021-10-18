@@ -2,7 +2,9 @@
 /*
 Chloe Anotnozzi
 1670980
+
 23/09/2021
+Gets the biggest value between the numbers
 */
 import java.util.*;
 
