@@ -1,11 +1,11 @@
-import java.util.stream.IntStream;
-
 /*
 Chloe Antonozzi
 1670980
 
 16/10/2021
+Prints out rational number.
 */
+import java.util.stream.IntStream;
 
 class Rational {
     int numerator;
