@@ -4,6 +4,7 @@ Chloe Antonozzi
 1670980
 
 17/10/2021
+Prints out shades of red/pink
 */
 import javax.swing.*;
 import java.awt.*;
