@@ -2,8 +2,8 @@
 /*
 Chloe Antonozzi
 1670980
-07/09/2021
 
+07/09/2021
 Outputs if a year leaps as true or false
 */
 import java.util.Scanner;
