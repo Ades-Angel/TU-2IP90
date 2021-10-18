@@ -5,6 +5,7 @@ Chloe Antonozzi
 17/10/2021
 Extenstion to the file Letter
 */
+import Homework.Set7.Letter;
 
 public class SmoothLetter extends Letter {
     double deltaX = 2;
