@@ -2,8 +2,8 @@
 /*
 Chloe Antonozzi
 1670980
-14/09/2021
 
+14/09/2021
 Input balcance and calculates balance after 1 year
 */
 import java.util.Scanner;
