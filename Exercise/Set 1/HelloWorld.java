@@ -1,8 +1,8 @@
 /*
 Chloe Antonozzi
 1670980
-07/09/2021 
 
+07/09/2021 
 Example to demonstrate console output
 */
 
