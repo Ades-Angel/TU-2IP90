@@ -2,7 +2,9 @@
 /*
 Chloe Antonozzi 
 1670980
+
 28/09/2021
+Calculates functions and prints answers
 */
 import java.util.*;
 
