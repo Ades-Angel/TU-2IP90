@@ -4,6 +4,7 @@ Chloe Antonozzi
 1670980
 
 16/10/2021
+Prints the number of meals eaten and meals left
 */
 
 class Stable {
