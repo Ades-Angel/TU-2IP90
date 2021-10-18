@@ -2,8 +2,8 @@
 /*
 Chloe Antonozzi
 1670980
-14/09/2021
 
+14/09/2021
 Gets 3 numbers and prints the max.
 */
 import java.util.Scanner;
