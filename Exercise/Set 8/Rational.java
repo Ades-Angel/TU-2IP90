@@ -29,10 +29,6 @@ class Rational {
         return String.format("%d/%d", getNumerator(), getDenominator());
     }
 
-    void simplify() {
-        // Insert code here
-    }
-
     boolean eq(Rational other) {
         if ((this.subtract((Rational) (other))).getNumerator() == 0) {
             return true;
