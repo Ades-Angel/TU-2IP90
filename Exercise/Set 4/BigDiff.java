@@ -5,6 +5,7 @@ Chloe Antonozzi
 05/10/2021
 Coding Bat
 */
+
 public int bigDiff(int[] nums) {
   int min = nums[0];
   int max = nums[0];
