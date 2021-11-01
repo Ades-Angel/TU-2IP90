@@ -5,6 +5,7 @@ Chloe Antonozzi
 05/10/2021
 Coding Bat
 */
+
 public String middleTwo(String str) {
   int position;
   int length;
