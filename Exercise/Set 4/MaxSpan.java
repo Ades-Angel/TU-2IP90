@@ -5,6 +5,7 @@ Chloe Antonozzi
 05/10/2021
 Coding Bat
 */
+
 public int maxSpan(int[] nums) {
   int span = 0;
   int x;
