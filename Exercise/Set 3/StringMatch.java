@@ -5,6 +5,7 @@ Chloe Antonozzi
 05/10/2021
 Coding Bat
 */
+
 public int stringMatch(String a, String b) {
   int len = Math.min(a.length(), b.length());
   int count = 0;
