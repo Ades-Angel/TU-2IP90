@@ -5,6 +5,7 @@ Chloe Antonozzi
 05/10/2021
 Coding Bat
 */
+
 public int bunnyEars2(int bunnies) {
   if (bunnies == 0){
     return 0;
