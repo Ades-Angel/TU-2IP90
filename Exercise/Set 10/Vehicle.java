@@ -1,5 +1,3 @@
-package Homework.Set10;
-
 /*
 Chloe Antonozzi
 1670980
