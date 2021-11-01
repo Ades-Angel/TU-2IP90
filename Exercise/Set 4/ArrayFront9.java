@@ -5,6 +5,7 @@ Chloe Antonozzi
 05/10/2021
 Coding Bat
 */
+
 public boolean arrayFront9(int[] nums) {
   int end = nums.length;
   if (end>4){
